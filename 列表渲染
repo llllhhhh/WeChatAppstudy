@@ -1,0 +1,23 @@
+<view>标签属性中使用</view>
+<view data-num="{{num}}"></view>
+<!--
+字符串和花括号之间不能有空格,否则会导致识别失败
+
+-->
+<view>
+      <checkbox checked=" {{ischecked}}"></checkbox>
+</view>
+
+<!-- 列表循环  -->
+<view >  
+  <view
+  wx:for="{{list}}"
+  wx:for-item="item"
+  wx:for-index="index">
+    索引:{{index}}
+    ------
+    值:{{item.name}}
+  </view>
+
+
+</view>
