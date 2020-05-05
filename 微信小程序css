@@ -1,0 +1,41 @@
+导入样式
+
+@import "../../style/weiui.wxss";
+
+选择器
+小程序中使用less
+下载vscode 安装插件easy
+在setting.json中写入
+    "less.compile":{
+        "outExt":".wxss"
+    }
+
+
+将demo07.wxss 重命名为.less  保存后会自动生成.wxcss文件
+
+编写代码:
+@color:yellow;
+
+text{
+    color: @color;
+}
+
+view{
+    .vie1{
+        text{
+            color: red;
+        }
+    }
+}
+
+/*导入 */
+
+@import "../demo07/reset.less";
+
+view{
+color: @themecolor;
+
+}
+
+
+
