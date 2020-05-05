@@ -1,0 +1,7 @@
+https://imgchr.com/ 网站上传图片 得到图片链接
+
+<swiper>
+  <swiper-item> <image  src="https://s1.ax1x.com/2020/05/05/YFQs4f.png"  />  </swiper-item>
+  <swiper-item> <image  src="https://s1.ax1x.com/2020/05/05/YF0V1A.png"  />  </swiper-item>
+  <swiper-item> <image  src="https://s1.ax1x.com/2020/05/05/YkFvo4.png"  />  </swiper-item>
+</swiper>
