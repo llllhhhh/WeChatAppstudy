@@ -1,0 +1,15 @@
+<view class="itemView">用户名：
+    <input type="text" bindinput="handleInput"/>
+  </view>
+  
+  绑定handleInput 函数 在js代码中实现
+  data: {
+    num:0
+  },
+  handleInput(e){
+    console.log(e)
+    this.setData({
+      num:e.detail.value
+    })
+  }
+  使用this.setData 给num 赋值
