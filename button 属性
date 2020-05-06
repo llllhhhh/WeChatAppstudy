@@ -1,0 +1,5 @@
+<button>默认按钮</button>
+<button size="mini">小按钮</button>
+<button type="primary">primary小按钮</button>
+<button type="primary" plain>plain primary小按钮</button>
+<button type="primary" loading >loadingprimary小按钮</button>
